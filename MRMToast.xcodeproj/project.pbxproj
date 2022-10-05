@@ -13,6 +13,8 @@
 		90D32A4828EE02E200F3A831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D32A4628EE02E200F3A831 /* Main.storyboard */; };
 		90D32A4A28EE02E600F3A831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D32A4928EE02E600F3A831 /* Assets.xcassets */; };
 		90D32A4D28EE02E600F3A831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D32A4B28EE02E600F3A831 /* LaunchScreen.storyboard */; };
+		90D33E2728EE036A00047405 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 90D33E2628EE036A00047405 /* README.md */; };
+		90D33E2928EE036F00047405 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 90D33E2828EE036F00047405 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		90D32A4928EE02E600F3A831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90D32A4C28EE02E600F3A831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90D32A4E28EE02E600F3A831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D33E2628EE036A00047405 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		90D33E2828EE036F00047405 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		90D32A3428EE02E100F3A831 = {
 			isa = PBXGroup;
 			children = (
+				90D33E2628EE036A00047405 /* README.md */,
+				90D33E2828EE036F00047405 /* LICENSE */,
 				90D32A3F28EE02E100F3A831 /* MRMToast */,
 				90D32A3E28EE02E100F3A831 /* Products */,
 			);
@@ -56,6 +62,22 @@
 		90D32A3F28EE02E100F3A831 /* MRMToast */ = {
 			isa = PBXGroup;
 			children = (
+				90D33E2A28EE03B300047405 /* MRMToast */,
+				90D33E2B28EE03C300047405 /* DemoApp */,
+			);
+			path = MRMToast;
+			sourceTree = "<group>";
+		};
+		90D33E2A28EE03B300047405 /* MRMToast */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MRMToast;
+			sourceTree = "<group>";
+		};
+		90D33E2B28EE03C300047405 /* DemoApp */ = {
+			isa = PBXGroup;
+			children = (
 				90D32A4028EE02E100F3A831 /* AppDelegate.swift */,
 				90D32A4228EE02E100F3A831 /* SceneDelegate.swift */,
 				90D32A4428EE02E100F3A831 /* ViewController.swift */,
@@ -64,7 +86,7 @@
 				90D32A4B28EE02E600F3A831 /* LaunchScreen.storyboard */,
 				90D32A4E28EE02E600F3A831 /* Info.plist */,
 			);
-			path = MRMToast;
+			path = DemoApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +149,9 @@
 			files = (
 				90D32A4D28EE02E600F3A831 /* LaunchScreen.storyboard in Resources */,
 				90D32A4A28EE02E600F3A831 /* Assets.xcassets in Resources */,
+				90D33E2728EE036A00047405 /* README.md in Resources */,
 				90D32A4828EE02E200F3A831 /* Main.storyboard in Resources */,
+				90D33E2928EE036F00047405 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +315,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9ZJ57DZ3A4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MRMToast/Info.plist;
+				INFOPLIST_FILE = MRMToast/DemoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +343,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9ZJ57DZ3A4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MRMToast/Info.plist;
+				INFOPLIST_FILE = MRMToast/DemoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
