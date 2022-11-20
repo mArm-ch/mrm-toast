@@ -15,6 +15,9 @@
 		90D32A4D28EE02E600F3A831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D32A4B28EE02E600F3A831 /* LaunchScreen.storyboard */; };
 		90D33E2728EE036A00047405 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 90D33E2628EE036A00047405 /* README.md */; };
 		90D33E2928EE036F00047405 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 90D33E2828EE036F00047405 /* LICENSE */; };
+		90D33E2F28EE043A00047405 /* MRMToastConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D33E2C28EE043A00047405 /* MRMToastConfig.swift */; };
+		90D33E3028EE043A00047405 /* MRMToastPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D33E2D28EE043A00047405 /* MRMToastPosition.swift */; };
+		90D33E3128EE043A00047405 /* MRMToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D33E2E28EE043A00047405 /* MRMToast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		90D32A4E28EE02E600F3A831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90D33E2628EE036A00047405 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		90D33E2828EE036F00047405 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		90D33E2C28EE043A00047405 /* MRMToastConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRMToastConfig.swift; sourceTree = "<group>"; };
+		90D33E2D28EE043A00047405 /* MRMToastPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRMToastPosition.swift; sourceTree = "<group>"; };
+		90D33E2E28EE043A00047405 /* MRMToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRMToast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 		90D33E2A28EE03B300047405 /* MRMToast */ = {
 			isa = PBXGroup;
 			children = (
+				90D33E2E28EE043A00047405 /* MRMToast.swift */,
+				90D33E2C28EE043A00047405 /* MRMToastConfig.swift */,
+				90D33E2D28EE043A00047405 /* MRMToastPosition.swift */,
 			);
 			path = MRMToast;
 			sourceTree = "<group>";
@@ -162,8 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D33E2F28EE043A00047405 /* MRMToastConfig.swift in Sources */,
 				90D32A4528EE02E100F3A831 /* ViewController.swift in Sources */,
 				90D32A4128EE02E100F3A831 /* AppDelegate.swift in Sources */,
+				90D33E3028EE043A00047405 /* MRMToastPosition.swift in Sources */,
+				90D33E3128EE043A00047405 /* MRMToast.swift in Sources */,
 				90D32A4328EE02E100F3A831 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
